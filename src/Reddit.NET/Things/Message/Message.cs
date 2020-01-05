@@ -20,7 +20,7 @@ namespace Reddit.Things
         public string Likes { get; set; }
 
         [JsonProperty("replies")]
-        public object Replies { get; set; }  // TODO - Determine type.  --Kris
+        public MessageContainer Replies { get; set; }  // TODO - Determine type.  --Kris (It's another message container)
 
         [JsonProperty("id")]
         public string Id { get; set; }
